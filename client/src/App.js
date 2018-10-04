@@ -11,15 +11,16 @@ import {
 } from '@fortawesome/free-solid-svg-icons';
 import {
   faInstagram,
-  faFacebookSquare
+  faFacebookSquare,
+  faTwitterSquare
 } from '@fortawesome/free-brands-svg-icons';
 
 import logo from './resources/logo.png';
 import logoB from './resources/logo-name-beneath.png';
 library.add(
-  faCoffee,
   faInstagram,
   faFacebookSquare,
+  faTwitterSquare,
   faPhone,
   faEnvelope,
   faEllipsisV
@@ -32,7 +33,7 @@ class App extends Component {
           <div className="nav-wrapper">
             <div id="inner-nav">
               <a className="brand-logo" href="/">
-                <img id="M-logo" src={logo} alt="Monar Global" />
+                <img id="M-logo" src={logo} alt="Monarc Global" />
                 MONARC
               </a>
             </div>
@@ -97,6 +98,9 @@ class App extends Component {
 
                 <a href="https://www.instagram.com/monarcglobal/">
                   <FontAwesomeIcon icon={faInstagram} size="4x" />
+                </a>
+                <a href="/">
+                  <FontAwesomeIcon icon={faTwitterSquare} size="4x" />
                 </a>
               </div>
             </div>
