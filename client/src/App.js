@@ -4,7 +4,6 @@ import './App.css';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
-  faCoffee,
   faPhone,
   faEnvelope,
   faEllipsisV
@@ -29,6 +28,12 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        <ul class="slideshow">
+          <li />
+          <li />
+          <li />
+          <li />
+        </ul>
         <nav className="navbar-fixed">
           <div className="nav-wrapper">
             <div id="inner-nav">
